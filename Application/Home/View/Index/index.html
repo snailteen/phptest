@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>this is a index</title>
+<style type="text/css">
+*{
+	margin:0 auto;
+	padding:0;
+
+}
+#wrap{
+	position: relative;
+	width: 50%;
+	height: 300px;
+}
+#name{
+	float: left;
+}
+
+#age{
+	float: left;
+}
+
+#updata{
+	float: left;
+}
+#name ,#age, #updata{
+	list-style: none;
+	margin-right: 30%;
+}
+.add{
+	bottom: 0;
+	position: absolute;
+    left: 40%;
+}
+.add li{
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+</style>
+</head>
+<body>
+
+<!-- <table border="1">
+	<tr>
+		<td>id</td>
+		<td>姓名</td>
+		<td>操作</td>
+	</tr>
+	<volist name='list' id='v'>
+	<tr>
+		<td>{$v.id}</td>
+		<td>{$v.name}</td>
+		<td><a href="__CONTROLLER__/view/id/{$v.id}">编辑</a></td>
+	</tr>
+	</volist>
+</table> -->
+
+<div id="wrap">
+
+	<ul id="name">
+		<volist name='list' id='v'>
+		<li> 姓名：{$v.name} 
+		     年龄：{$v.age} 
+		     <a href="__CONTROLLER__/view/id/{$v.id}">编辑</a>
+		     <a href="__CONTROLLER__/del/id/{$v.id}">删除</a>
+	    </li>
+		</volist>
+	</ul>
+
+	<ul class="add">
+	<li><a href="__CONTROLLER__/view" >添加</a></li>
+	
+    </ul>
+</form>
+	<!-- <input type="button" value="编辑">
+	
+	<input type="button" value="删除"> -->
+
+</div>
+</body>
+
+</html>

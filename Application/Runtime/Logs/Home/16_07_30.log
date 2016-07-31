@@ -1,0 +1,132 @@
+[ 2016-07-30T09:39:33+08:00 ] ::1 /study/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022908s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\cong\mix\study\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `teen` [ RunTime:0.9425s ]
+SQL: SELECT * FROM `teen`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.043753s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.043890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.038233s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.038356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.205878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.205997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.068011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.068113s ]
+
+[ 2016-07-30T09:47:11+08:00 ] ::1 /study/test?sort=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010977s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\cong\mix\study\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `teen` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `teen`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007049s ]
+
+[ 2016-07-30T09:47:18+08:00 ] ::1 /study/test?sort=%E6%95%99%E5%B8%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\cong\mix\study\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `teen` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `teen`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-07-30T23:04:54+08:00 ] 127.0.0.1 /study/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'eka'@'localhost' (using password: YES)
+
+[ 2016-07-30T23:07:14+08:00 ] 127.0.0.1 /study/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'eka'@'localhost' (using password: YES)
+
+[ 2016-07-30T23:08:58+08:00 ] 127.0.0.1 /study/application/home/controller/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载控制器:Application
+
+[ 2016-07-30T23:09:12+08:00 ] 127.0.0.1 /study/application/home/controller/index%E3%80%82php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+ERR: 无法加载控制器:Application
+
+[ 2016-07-30T23:09:16+08:00 ] 127.0.0.1 /study/application/home/controller/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载控制器:Application
+
+[ 2016-07-30T23:51:59+08:00 ] 127.0.0.1 /study/application/home/controller/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009177s ]
+ERR: 无法加载控制器:Application
+
+[ 2016-07-30T23:52:03+08:00 ] 127.0.0.1 /study/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'eka'@'localhost' (using password: YES)
+

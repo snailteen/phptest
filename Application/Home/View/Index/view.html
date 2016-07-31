@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>this is a view</title>
+<style type="text/css">
+*{
+	margin:0 auto;
+	padding:0;
+
+
+</style>
+</head>
+<body>
+<form action="__CONTROLLER__/save" method="post">
+	姓名<input type="text" name="name" value="{$a.name}">
+	年龄<input type="text" name="age" value="{$a.age}">
+<input type="submit" value="提交" >
+<input type="text" name="id" value="{$a.id}">
+</form>
+
+</body>
+</html>
