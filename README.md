@@ -1,2 +1,2 @@
 # phptest
-this file is about create,update,add,delete of thinkphp
+this file is about create,update,add,delete of thinkphp dd
